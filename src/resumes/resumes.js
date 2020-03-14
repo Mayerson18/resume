@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 // If you create a new resume, import it here:
 import './material-dark.vue';
 import './left-right.vue';

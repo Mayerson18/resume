@@ -1,7 +1,7 @@
 // Spanish
 const lang = {
     contact: 'Contacto',
-    born: 'Nacido en',
+    born: 'Nacido',
     bornIn: 'en',
     experience: 'Experiencia',
     education: 'Educación',

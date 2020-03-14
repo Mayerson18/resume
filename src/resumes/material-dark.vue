@@ -98,23 +98,58 @@
       <div>{{person.position}}</div>
     </div>
 
-    <div class="section-headline">{{ lang.experience }}</div>
-    <div class="block" v-for="experience in person.experience" :key="experience.company">
+    <div class="section-headline">Extracto</div>
+    <div class="block">
       <div class="block-helper"></div>
-      <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
-        <div class="subheadline">{{experience.timeperiod}}</div>
+      <h3 class="headline"></h3>
+        <div class="subheadline"></div>
         <p class="info">
-          {{experience.description}}
+          Soy desarrollador de software full stack, trabajo con aplicaciones tanto moviles como de escritorio, tengo
+          experiencia en las siguientes tecnologias: Html,css,javascript,
+          vue.js(con typescript), react.js (con typescript),React Native, Angular 8 tambien tengo conocimientos
+          en parte del backend con node.js(Loopback 4 y restify principalment), php y bases de datos como Mysql y
+          mongodb.
+        </p>
+        <p class="info">
+          He trabajado con implementaciones en REST como en Graphql (en frontend y backend)...
+        </p>
+        <p class="info">
+          También en pre procesadores como pug,sass y scss.
+          Trabajo con lenguajes como javascript,php,c#,c,c++,golang,python (con
+          disposición a cualquiera dependiendo del caso)
+          Adicionalmente he trabajado con el control de calidad de procesos
+          mediante la implementacion de Unit Test para proyectos Web, consola y
+          API.
         </p>
     </div>
-    <div class="section-headline">{{ lang.education }}</div>
+    <div class="section-headline">{{ lang.experience }}</div>
+    <div class="block">
+      <div class="block-helper"></div>
+      <h3 class="headline">Full stack - Backlayer</h3>
+        <div class="subheadline">Febrero 2017 - Junio 2018</div>
+        <p class="info">
+          Desarrollador de backend en tecnologias C, .NET, Javascript y Unit
+          Testing. Manejo de tecnologias frontend, backend y optimización de procesos.
+          Seguimiento de avances con metodologia agil SCRUM
+        </p>
+    </div>
+    <div class="block">
+      <div class="block-helper"></div>
+      <h3 class="headline">Full stack - Linktic</h3>
+        <div class="subheadline">Enero 2019 - Actualmente</div>
+        <p class="info">
+          Desarrollador full stack en javascript trabajando con Loopback4 (typescript), graphql,
+          react, vue, react native y c# en diferentes proyectos.
+        </p>
+    </div>
+    <!--<div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
       <div class="block-helper"></div>
       <div class="headline">{{education.degree}}</div>
       <p class="info">
         {{education.timeperiod}}, {{education.description}}
       </p>
-    </div>
+    </div>-->
   </div>
 
   <div style="clear:both;"></div>
@@ -439,7 +474,7 @@ h4 {
   }
 }
 #myselfpic {
-  background-image:url('../../resume/id.jpg');
+  background-image:url('../../resume/profile.jpg');
   color:black;
 }
 #githubIcon {

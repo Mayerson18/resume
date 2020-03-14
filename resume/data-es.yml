@@ -1,15 +1,24 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Mayerson
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Jimenez
+about: Soy desarrollador de software me especializo en la parte del frontend de
+      paginas webs, aplicaciones tanto moviles como de escritorio, tengo
+      experiencia en las siguientes tecnologias Html,css,javascript,
+      vue.js(principalmente), react.js,React Native tambien tengo conocimientos
+      en parte del backend con node.js, php y bases de datos como Mysql y
+      mongodb..
+      También en pre procesadores como pug,sass y scss.
+      Trabajo con lenguajes como javascript,php,c#,c,c++,golang,python (con
+      disposición a cualquiera dependiendo del caso)
+      Adicionalmente he trabajado con el control de calidad de procesos
+      mediante la implementacion de Unit Test para proyectos Web, consola y
+      API desarrolladas en C#/.NET.
+position: Desarrollador Full Stack
 
 birth:
-  year: 1993
+  year: 
   location: San Juan de Colon-Venezuela
 
 experience:
@@ -57,8 +66,6 @@ skills:
   level: 90
 - name: Angular 8
   level: 80
-- name: ES.Next
-  level: 70
 - name: Docker
   level: 70
 knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
@@ -92,5 +99,5 @@ contact:
   website: 
   github: mayerson18
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: es
 `

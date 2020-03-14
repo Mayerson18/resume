@@ -88,6 +88,7 @@
 </template>
 
 <script>
+/* eslint-disable linebreak-style */
 import Vue from 'vue';
 import { getVueOptions } from './options';
 
